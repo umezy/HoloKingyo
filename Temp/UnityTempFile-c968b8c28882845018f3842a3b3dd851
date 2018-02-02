@@ -1,0 +1,286 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-unsafe
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll'
+-r:'/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll'
+-r:'/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll'
+-r:'/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll'
+-r:'/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll'
+-r:'/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll'
+-r:'Assets/Package/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_0
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_STANDALONE_OSX
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+'Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs'
+'Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs'
+'Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs'
+'Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs'
+'Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/BuildDeployPortal.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/BuildDeployPrefs.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/BuildDeployTools.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/BuildDeployWindow.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/BuildInfo.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/BuildSLNUtilities.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/CertificatePasswordWindow.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/CopyDirectoryInfo.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/HoloToolkitCommands.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/UwpProjectPostProcess.cs'
+'Assets/Package/HoloToolkit/BuildAndDeploy/Editor/XdeGuestLocator.cs'
+'Assets/Package/HoloToolkit/Input/Scripts/Editor/EditorHandsMaterialInspector.cs'
+'Assets/Package/HoloToolkit/Input/Scripts/Editor/KeywordAndKeyCodeDrawer.cs'
+'Assets/Package/HoloToolkit/Input/Scripts/Editor/MixedRealityCameraMangerEditor.cs'
+'Assets/Package/HoloToolkit/Input/Scripts/Editor/SpeechInputHandlerEditor.cs'
+'Assets/Package/HoloToolkit/Input/Scripts/Editor/SpeechInputSourceEditor.cs'
+'Assets/Package/HoloToolkit/Input/Scripts/Editor/XboxControllerInputSourceEditor.cs'
+'Assets/Package/HoloToolkit/Sharing/Scripts/Editor/SharingMenu.cs'
+'Assets/Package/HoloToolkit/Sharing/Scripts/Editor/SharingStageEditor.cs'
+'Assets/Package/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/Editor/RoomMeshExporter.cs'
+'Assets/Package/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/Editor/SurfaceMeshesToPlanesEditor.cs'
+'Assets/Package/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioManagerBaseEditor.cs'
+'Assets/Package/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioManagerEditor.cs'
+'Assets/Package/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioMiniManagerEditor.cs'
+'Assets/Package/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioProfiler.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/AutoConfigureMenu.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/AutoConfigureWindow.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/CapabilitySettingsWindow.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/EditorGUIExtensions.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/EditorGUILayoutExtensions.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/EditorPrefs.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/EnforceEditorSettings.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/ExternalProcess.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/HeadsetAdjustmentEditor.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/Int3Drawer.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/LayerMaskExtensions.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/OpenLocalFileEditor.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/OpenLocalFolderEditor.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/ProjectSettingsWindow.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/SaveLocalFileEditor.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/SceneLauncherEditor.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/SceneSettingsWindow.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/SetIconsWindow.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/TextureScale.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/USBDeviceInfo.cs'
+'Assets/Package/HoloToolkit/Utilities/Scripts/Editor/USBDeviceListener.cs'
+'Assets/Package/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/CustomMaterialEditor.cs'
+'Assets/Package/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/FastConfigurable2SidedGUI.cs'
+'Assets/Package/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/FastConfigurableGUI.cs'
+'Assets/Package/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/ShaderGUIUtils.cs'
+'Assets/Package/HoloToolkit/UX/Scripts/Editor/KeyboardInputFieldEditor.cs'
+'Assets/Package/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/FCIntegration/Editor/RecorderEditorBase.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/FCIntegration/EXR/Editor/EXRRecorderSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/FCIntegration/GIF/Editor/GIFRecorderSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/FCIntegration/MP4/Editor/Mp4RecorderSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/FCIntegration/PNG/Editor/PngRecorderSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/FCIntegration/WEBM/Editor/WEBMRecorderSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/MovieRecorder/Audio/Editor/AudioInput.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/MovieRecorder/Audio/Editor/AudioInputSettings.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/MovieRecorder/Audio/Editor/AudioInputSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/MovieRecorder/Recorder/Editor/MediaRecorder.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/MovieRecorder/Recorder/Editor/MediaRecorderEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/MovieRecorder/Recorder/Editor/MediaRecorderSettings.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/AudioEncoderConfigDrawer.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/AudioRecorderEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/GBufferRecorderEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/Misc/BoolDrawer.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/Misc/DataPathDrawer.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/MovieEncoderConfigDrawer.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/MovieRecorderEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Extensions/UTJ/FrameCapturer/Editor/RecorderBaseEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/AboutBox.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/EnumHelper.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/FileNameDrawer.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/InputEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/OutputPathDrawer.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/RecorderEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/RecorderSelector.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/RecorderWindow.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/RecorderWindowSettings.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/ResolutionSelector.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/RTInputSelector.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/SerializableObjHelper.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Core/Editor/Timeline/RecorderClipEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/Animation/Editor/AnimationInput.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/Animation/Editor/AnimationInputSettings.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/Animation/Editor/AnimationInputSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/Camera360/Editor/Camera360InputEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/CBRenderTexture/Editor/CBRenderTextureInputSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/RenderTexture/Editor/RenderTextureInputSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/RenderTextureSampler/Editor/RenderTextureSamplerEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Inputs/ScreenCapture/Editor/ScreenCaptureInputEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Packager/Editor/FRPackagerPaths.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Recorders/AnimationRecorder/Editor/AnimationRecorder.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Recorders/AnimationRecorder/Editor/AnimationRecorderSettings.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Recorders/AnimationRecorder/Editor/AnimationRecorderSettingsEditor.cs'
+'Assets/Package/Unity Technologies/Recorder/Framework/Recorders/ImageRecorder/Editor/ImageRecorderEditor.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll'
+-sdk:2.0

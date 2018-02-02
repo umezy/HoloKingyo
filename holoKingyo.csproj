@@ -742,6 +742,11 @@
     <Compile Include="Assets\Script\BuildNavmesh.cs" />
     <Compile Include="Assets\Script\CameraControl.cs" />
     <Compile Include="Assets\Script\GlobeController.cs" />
+    <Compile Include="Assets\Script\LocalNavMeshBuilder.cs" />
+    <Compile Include="Assets\Script\NavMeshSourceTag.cs" />
+    <Compile Include="Assets\Script\RandomWalk.cs" />
+    <Compile Include="Assets\Script\SpatialMappingNavMesh.cs" />
+    <Compile Include="Assets\Script\SpawnObject.cs" />
     <Compile Include="Assets\Script\Swim.cs" />
   </ItemGroup>
   <ItemGroup>
