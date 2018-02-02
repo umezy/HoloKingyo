@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoKingyo", "holoKingyo.csproj", "{C172EFE6-103C-E667-9771-304492655E43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloKingyo", "HoloKingyo.csproj", "{E700071B-7AB7-F833-C13C-6DD393F0EF39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoKingyo.Editor", "holoKingyo.Editor.csproj", "{2D9C0751-0CDB-E754-5248-01BC930BF360}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloKingyo.Editor", "HoloKingyo.Editor.csproj", "{C1BD09A3-715F-60B9-0507-78912B87C3BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C172EFE6-103C-E667-9771-304492655E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C172EFE6-103C-E667-9771-304492655E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C172EFE6-103C-E667-9771-304492655E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C172EFE6-103C-E667-9771-304492655E43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D9C0751-0CDB-E754-5248-01BC930BF360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D9C0751-0CDB-E754-5248-01BC930BF360}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D9C0751-0CDB-E754-5248-01BC930BF360}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D9C0751-0CDB-E754-5248-01BC930BF360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E700071B-7AB7-F833-C13C-6DD393F0EF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E700071B-7AB7-F833-C13C-6DD393F0EF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E700071B-7AB7-F833-C13C-6DD393F0EF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E700071B-7AB7-F833-C13C-6DD393F0EF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BD09A3-715F-60B9-0507-78912B87C3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BD09A3-715F-60B9-0507-78912B87C3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BD09A3-715F-60B9-0507-78912B87C3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BD09A3-715F-60B9-0507-78912B87C3BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
