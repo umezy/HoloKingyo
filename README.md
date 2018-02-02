@@ -1,7 +1,7 @@
 # HoloKingyo
 It's social app for Hololens.（be completed in this April)
 HoloKingyo is inspired form flying witch's DONGYO.
-DONGYO can swim earth and can fly.
+HoloKingyo can swim under the earth and can fly in the air.
 It's beautiful, It calms you down.
 
 # Development environment
