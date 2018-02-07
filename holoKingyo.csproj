@@ -232,14 +232,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/Package/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>/Users/yoshitakaumezu/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/Package/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -741,10 +741,12 @@
     <Compile Include="Assets\Package\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Engine\ImageRecorderSettings.cs" />
     <Compile Include="Assets\Script\BuildNavmesh.cs" />
     <Compile Include="Assets\Script\CameraControl.cs" />
+    <Compile Include="Assets\Script\ColorChanger.cs" />
     <Compile Include="Assets\Script\GlobeController.cs" />
     <Compile Include="Assets\Script\LocalNavMeshBuilder.cs" />
     <Compile Include="Assets\Script\NavMeshSourceTag.cs" />
     <Compile Include="Assets\Script\RandomWalk.cs" />
+    <Compile Include="Assets\Script\SameColor.cs" />
     <Compile Include="Assets\Script\SpatialMappingNavMesh.cs" />
     <Compile Include="Assets\Script\SpawnObject.cs" />
     <Compile Include="Assets\Script\Swim.cs" />
